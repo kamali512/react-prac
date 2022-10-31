@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ComA from './contestComponent/componetA'
 import CardData from './component/CardData';
+import Counter from "./usereducer/Counter"
 export const NameContext = React.createContext()
 export const ColorContext = React.createContext()
 function App(){
@@ -14,6 +15,7 @@ function App(){
       <ComA/>
       </ColorContext.Provider>
       </NameContext.Provider>
+      <Counter />
     </div>
   );
 }
