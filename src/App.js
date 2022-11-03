@@ -5,6 +5,9 @@ import CardData from './component/CardData';
 import Counter from "./usereducer/Counter"
 import MutiReducer from './usereducer/mutiReducer'
 import URUE from './usereducer/uRUEfeect';
+// import URUEf from './usereducer/URUE';
+import Memo from './useMemo/Memo';
+import Ref from './UseRef/Ref';
 export const NameContext = React.createContext()
 export const ColorContext = React.createContext()
 
@@ -21,6 +24,9 @@ function App(){
       <Counter />
       <MutiReducer />
       <URUE/>
+      {/* <URUEf/> */}
+      <Memo/>
+      <Ref/>
     </div>
   );
 }
